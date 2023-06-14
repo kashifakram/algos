@@ -2,6 +2,7 @@ from fib import fib
 from greedy import min_coins
 from divide_conq import bin_search_algo
 from dyn_prog import nth_fibonacci
+from flow_net import do_all
 
 def main():
     print("main program starts")    
@@ -15,7 +16,7 @@ def main():
     result = nth_fibonacci(n)
     print("The", n, "th Fibonacci number is:", result)
 
-
+    do_all()
 
     print("thank you...")
 
